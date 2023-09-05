@@ -13,6 +13,9 @@
   <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/php-namespaces/vendor/composer" />
+      <path value="$PROJECT_DIR$/php-namespaces/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/php-namespaces/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/php-namespaces/vendor/symfony/var-dumper" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2">
@@ -20,6 +23,11 @@
   </component>
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/php-namespaces/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
   <component name="PsalmOptionsConfiguration">
     <option name="transferred" value="true" />
