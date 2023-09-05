@@ -9,7 +9,7 @@ $ekip2 = new Equipe("OM","Marcelino", "2015");
 echo $ligue1 -> getNom();
 $ligue1->ajouterEquipe($ekip1);
 $ligue1->ajouterEquipe($ekip2);
-var_dump($ligue1->getEquipes());
+dump($ligue1->getEquipes());
 
 $personne = new Personne("HEHE BOI");
-var_dump($personne);
+dump($personne);
