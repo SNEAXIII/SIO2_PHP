@@ -1,0 +1,11 @@
+{
+    "name": "bassignota/php-namespaces",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alexis Bassignot",
+            "email": "misterbalise2@gmail.com"
+        }
+    ],
+    "require": {}
+}
