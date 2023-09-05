@@ -11,6 +11,10 @@
       <excludeFolder url="file://$MODULE_DIR$/php-namespaces/vendor/symfony/deprecation-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/php-namespaces/vendor/symfony/polyfill-mbstring" />
       <excludeFolder url="file://$MODULE_DIR$/php-namespaces/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/var-dumper" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
