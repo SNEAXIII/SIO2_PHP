@@ -1,1 +1,0 @@
-composant --> ensemble de classes qui permet de réaliser une fonctionnalité
