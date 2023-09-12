@@ -1,0 +1,5 @@
+symfony check:requirements --> verifier si tout est ok pour lancer un projet symfony
+symfony new nomDuProjet --webapp --> initialise symfony dans un dossier
+symfony console about --> dans le dossier app, verifie si tout est bon
+symfony serve -d --port=8000
+symfony server:stop
