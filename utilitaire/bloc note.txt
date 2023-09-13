@@ -3,3 +3,4 @@ api --> interface qui permet de communiquer avec une application
 api rest --> permet de récup un json depuis un simple lien
 cli --> command line interface
 scoop --> gestionnaire de packet windows
+asset() --> tout ce qui est dans le dossier public

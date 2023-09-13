@@ -3,3 +3,4 @@ symfony new nomDuProjet --webapp --> initialise symfony dans un dossier
 symfony console about --> dans le dossier app, verifie si tout est bon
 symfony serve -d --port=8000
 symfony server:stop
+symfony console make:controller NomClasse
