@@ -1,6 +1,19 @@
 symfony check:requirements --> verifier si tout est ok pour lancer un projet symfony
 symfony new nomDuProjet --webapp --> initialise symfony dans un dossier
 symfony console about --> dans le dossier app, verifie si tout est bon
+
 symfony serve -d --port=8000
 symfony server:stop
+
 symfony console make:controller NomClasse
+symfony console debug:route
+
+symfony console doctrine:database:create
+symfony console doctrine:fixtures:load --> charger des fixtures dans la bdd + clear
+
+symfony console make:entity NomEntitee
+
+symfony console make:migration
+symfony console doctrine:migrations:migrate |||| symfony.exe console d:m:m 
+
+symfony console make:fixtures NomEntitee{Fixtures}
