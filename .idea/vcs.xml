@@ -3,5 +3,8 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/projet/1erProjetSymfony" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/projet/PorteFolio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/projet/php-bibliotheque" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/projet/php-heritage" vcs="Git" />
   </component>
 </project>

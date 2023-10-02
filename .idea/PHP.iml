@@ -7,6 +7,10 @@
       <sourceFolder url="file://$MODULE_DIR$/php-namespaces/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/projet/1erProjetSymfony/migrations" isTestSource="false" packagePrefix="DoctrineMigrations" />
+      <sourceFolder url="file://$MODULE_DIR$/projet/1erProjetSymfony/src" isTestSource="false" packagePrefix="App" />
+      <sourceFolder url="file://$MODULE_DIR$/projet/1erProjetSymfony/var/cache/dev" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/projet/php-namespaces/src" isTestSource="false" packagePrefix="App" />
       <excludeFolder url="file://$MODULE_DIR$/php-namespaces/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/php-namespaces/vendor/symfony/deprecation-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/php-namespaces/vendor/symfony/polyfill-mbstring" />
@@ -15,6 +19,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/deprecation-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/projet/php-heritage/vendor" />
+      <excludeFolder url="file://$MODULE_DIR$/projet/php-namespaces/vendor" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

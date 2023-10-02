@@ -3,9 +3,11 @@ API --> interface qui permet de communiquer avec une application
 API rest --> permet de récup un json depuis un simple lien
 CLI --> command line interface
 scoop --> gestionnaire de packet windows
-asset() --> raccourci vers le dossier public
+asset() --> raccourci vers le dossier public dans symfony
 table --> classe <--> MR --> MO
 enregistrement --> objet <--> MR --> MO
 Fixture --> jeu de données généré par symfony
 Injection de dépendence --> Symfony transforme un parametre par un objet --> https://blog.eleven-labs.com/fr/injection-des-dependances/
 findBy --> ne permet que de faire des tests d'égalités
+Heritage --> récupere une classe et injecte les attributs/méthodes dans la classe courante
+Protected --> protege les attributs et les rends accessible dans les classes heritées

@@ -1,0 +1,21 @@
+PAS TOUCHE A LA MAIN --> on isole sur des branches
+
+git init -> initialiser un repo git en local
+
+git add . -> fait un ensemble de fichiers
+git commit -m "{message}" -> package l'ensemble de fichiers
+git push -u origin main -> pusher tout les package
+
+git branch -M main -> renomer la branche courante
+git remote add origin {lienRepoGit} -> lier le repo github et le repo local
+
+git status -> voir ce qui est en attente
+git branch -> lister toutes les branches
+git log -> faire un historique des modifs
+
+git branch {nomBranche} -> créé une nouvelle branche
+git checkout {nomBranche} -> switcher de branche
+git merge {nomBranche} -> fusionne la branche visée dans la courante
+git branch -d {nomBranche} -> delete une branche
+
+git branch -D {nomBranche} -> delete une branche de maniere forcée
