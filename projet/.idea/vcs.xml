@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/1erProjetSymfony" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PorteFolio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PorteFolio/PorteFoliov1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PorteFolio/ProjetSymfony" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/php-bibliotheque" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/php-heritage" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/php-projet-scrum-biblio" vcs="Git" />
+  </component>
+</project>
