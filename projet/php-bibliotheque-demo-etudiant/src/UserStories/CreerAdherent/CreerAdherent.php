@@ -3,7 +3,7 @@
 namespace App\UserStories\CreerAdherent;
 
 use App\Entites\Adherent;
-use App\Services\GenerateurNumeroAdherent;
+use App\Services\GeneratorNumeroAdherent;
 use DateTime;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
@@ -11,15 +11,15 @@ use Symfony\Component\Validator\Validator\ValidatorInterface;
 class CreerAdherent
 {
     private EntityManagerInterface $entityManager;
-    private GenerateurNumeroAdherent $generateurNumeroAdherent;
+    private GeneratorNumeroAdherent $generateurNumeroAdherent;
     private ValidatorInterface $validator;
 
     /**
      * @param EntityManagerInterface $entityManager
-     * @param GenerateurNumeroAdherent $generateurNumeroAdherent
+     * @param GeneratorNumeroAdherent $generateurNumeroAdherent
      * @param ValidatorInterface $validator
      */
-    public function __construct(EntityManagerInterface $entityManager, GenerateurNumeroAdherent $generateurNumeroAdherent, ValidatorInterface $validator)
+    public function __construct(EntityManagerInterface $entityManager, GeneratorNumeroAdherent $generateurNumeroAdherent, ValidatorInterface $validator)
     {
         $this->entityManager = $entityManager;
         $this->generateurNumeroAdherent = $generateurNumeroAdherent;
@@ -27,7 +27,7 @@ class CreerAdherent
     }
 
 
-    public function execute(CreerAdherantRequete $requete) :  bool {
+    public function execute(CreerAdherentRequete $requete) :  bool {
         // Valider les données en entrées (de la requête)
 
         // Vérifier que l'email n'existe pas déjà

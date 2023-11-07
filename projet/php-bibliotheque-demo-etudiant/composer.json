@@ -26,7 +26,8 @@
         "symfony/validator": "^6.3"
     },
     "require-dev": {
-        "phpunit/phpunit": "^10.3"
+        "phpunit/phpunit": "^10.3",
+        "symfony/var-dumper": "^6.3"
     },
     "scripts": {
         "unit-test": "./vendor/bin/phpunit --testsuite Unit --testdox --colors=always",

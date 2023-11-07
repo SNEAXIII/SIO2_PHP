@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Services;
-class GenerateurNumeroAdherent
+class GeneratorNumeroAdherent
 {
     public function execute(): string
     {
