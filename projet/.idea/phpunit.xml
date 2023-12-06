@@ -3,11 +3,11 @@
   <component name="PHPUnit">
     <option name="directories">
       <list>
+        <option value="$PROJECT_DIR$/PorteFolio/ProjetSymfony/tests" />
         <option value="$PROJECT_DIR$/1erProjetSymfony/tests" />
         <option value="$PROJECT_DIR$/PorteFolio/tests" />
-        <option value="$PROJECT_DIR$/php-projet-scrum-biblio/tests" />
-        <option value="$PROJECT_DIR$/PorteFolio/ProjetSymfony/tests" />
         <option value="$PROJECT_DIR$/php-bibliotheque/tests" />
+        <option value="$PROJECT_DIR$/php-projet-scrum-biblio/tests" />
       </list>
     </option>
   </component>

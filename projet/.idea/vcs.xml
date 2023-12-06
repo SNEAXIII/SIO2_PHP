@@ -7,6 +7,7 @@
     <mapping directory="$PROJECT_DIR$/PorteFolio/PorteFoliov1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/PorteFolio/ProjetSymfony" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/php-bibliotheque" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/php-exeption" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/php-heritage" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/php-projet-scrum-biblio" vcs="Git" />
   </component>

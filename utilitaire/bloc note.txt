@@ -11,3 +11,5 @@ Injection de dépendence --> Symfony transforme un parametre par un objet --> ht
 findBy --> ne permet que de faire des tests d'égalités
 Heritage --> récupere une classe et injecte les attributs/méthodes dans la classe courante
 Protected --> protege les attributs et les rends accessible dans les classes heritées
+Fonction de CallBack --> fonction qui va etre appelée au déclanchement d'un événement
+Fonction Anonyme --> fonction qui n'a pas de nom

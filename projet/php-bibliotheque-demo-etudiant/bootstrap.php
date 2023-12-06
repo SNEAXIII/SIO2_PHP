@@ -30,6 +30,7 @@ $connection = DriverManager::getConnection([
 
 // Création de l'entity manager
 try {
+
     $entityManager = new EntityManager($connection, $config);
 } catch (\Doctrine\ORM\Exception\MissingMappingDriverImplementation $e) {
     echo "Erreur : " . $e->getMessage();
