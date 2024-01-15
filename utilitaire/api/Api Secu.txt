@@ -1,0 +1,22 @@
+Securité une Api Rest
+	→ Authentifier ? Qui  émet la requête ??? → Firewall
+	→ Autoriser ? Quelle action sur quel EndPoint ??? → Acces Control or Code Verification
+
+On va utiliser un Token au format JWT (Json Web Token) à chaque appel de l'api → Endpoint Spécial pour récuperer les Credentials
+	→ Verifier si le user existe
+	→ Generer un JWT (Signé numériquement → permet à l'api de garantir l'intégrité du token)
+	→ Renvoyer le JWT
+
+JWT
+	1) Entete: {"alg": "@Protocol@","typ": "JWT"}
+	2) Payload: {@Données@} → Utilise des claims
+	3) Signature : Base64url
+
+Plugin JWT PHP : lexik/jwt-authentication-bundle
+
+Sous Symfony → on sécurise avec Security.yaml
+
+Requête avec JWT sous le bundle lexik:
+	1) A la reception de la requête, le JWT est vérifié
+	2) Si le token est valide, le bundle lexik récupère l'user via la BDD
+	3) Le user est stocké dans dans le contexte de sécurité

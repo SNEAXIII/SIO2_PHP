@@ -1,0 +1,2 @@
+Api 	→ Interface d'une application qui expose des endpoints (actions sur des ressources)
+	→ Les données échangée en entrée ou en sortie sont en Json
