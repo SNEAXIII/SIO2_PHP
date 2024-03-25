@@ -16,7 +16,7 @@ symfony console make:entity NomEntitee
 symfony console make:migration
 symfony console doctrine:migrations:migrate |||| symfony.exe console d:m:m 
 
-symfony console make:fixtures NomEntitee{Fixtures}
+symfony console make:fixtures {NomEntitee}Fixtures
 symfony console make:fixtures:load
 
 symfony console make:user --> creer un utilisateur
